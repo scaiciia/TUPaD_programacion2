@@ -6,7 +6,7 @@ package trabajopractico1;
 
 /**
  *
- * @author Pupa
+ * @author Santiago Caiciia Massello
  */
 public class TrabajoPractico1 {
 
