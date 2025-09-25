@@ -1,0 +1,17 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>10</x><y>140</y><w>420</w><h>250</h></coordinates><panel_attributes>TarjetaDeCrédito
+--
+- numero: int
+- fechaVencimiento: Date
+- cliente:Cliente
+- banco: Banco
+--
++ TarjetaDeCrédito(numero: int, fechaVencimiento: Date)
++ TarjetaDeCrédito(numero: int, fechaVencimiento: Date, banco: Banco)
++ getNumero(): int
++ setNumero(numero: int): void
++ getFechaVencimiento(): Date
++ setFechaVencimiento(fechaVencimiento: Date): void
++ getBanco(): Banco
++ setBanco(banco: Banco): void
++ getCliente(): Cliente
++ setCliente(cliente: Cliente): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>30</y><w>100</w><h>30</h></coordinates><panel_attributes>SimpleClass</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>330</y><w>100</w><h>30</h></coordinates><panel_attributes>SimpleClass</panel_attributes><additional_attributes></additional_attributes></element></diagram>
